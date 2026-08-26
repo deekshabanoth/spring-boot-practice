@@ -24,4 +24,9 @@ public class restController {
         return "Today is your lucky day";
     }
 
+    @GetMapping("/dummy")
+    public String dummy(){
+        return "Dummy method executed!!";
+    }
+
 }
